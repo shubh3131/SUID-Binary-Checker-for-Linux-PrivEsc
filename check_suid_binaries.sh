@@ -13,9 +13,11 @@
 # Usage:
 # ./check_suid.sh
 
-# Note: a file containing all of the exploitable suid binaries was made by the list available on gtfobins to run against this script.
+# Note: a file containing all of the exploitable suid binaries was made by the list available on gtfobins to run against this script. 
 
-# Future Changes: Can automate the checking against suid binaries available on gtfobins directly from the  web page.
+
+# DOWNLOAD THE 'gtfo-binaries.txt' FILE TO RUN ALONG WITH THE CODE.
+
 
 
 # CODE STARTS HERE:
