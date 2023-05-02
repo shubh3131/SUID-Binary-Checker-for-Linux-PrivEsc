@@ -63,7 +63,7 @@ index=0
 for target in "${target_suids[@]}"; do
         if echo "${gtfo_suids[@]}" | grep -qw "$target"; then
                 exploitable_suids[index]="$target"
-                index=index+1
+                ((index++))
         fi
 done
 
